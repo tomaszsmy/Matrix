@@ -90,6 +90,7 @@ public class MainWindow {
         MatrixAtable = new JTable();
         MatrixAtable.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
         MatrixAtable.setBounds(35, 29, 175, 160);
+        MatrixAtable.setBackground(null);
         frame.getContentPane().add(MatrixAtable);
 
         lblMatrixA = new JLabel("Macierz A");
@@ -98,6 +99,7 @@ public class MainWindow {
 
         MatrixBtable = new JTable();
         MatrixBtable.setBounds(278, 29, 175, 160);
+        MatrixBtable.setBackground(null);
         frame.getContentPane().add(MatrixBtable);
 
         lblMatrixB = new JLabel("Macierz B");
@@ -175,6 +177,7 @@ public class MainWindow {
 
         scoreTable = new JTable();
         scoreTable.setBounds(152, 263, 175, 160);
+        scoreTable.setBackground(null);
         frame.getContentPane().add(scoreTable);
 
         JButton btnRandA = new JButton("Wypelnij losowo");
